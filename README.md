@@ -1,4 +1,6 @@
-List of scripts useful to perform automated backups with restic.
+# Restic Scripts
+
+List of scripts useful to perform automated backups with restic, designed to be used to backup to a REST server.
 
 https://github.com/restic/restic
 
