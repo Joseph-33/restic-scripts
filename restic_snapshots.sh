@@ -1,6 +1,6 @@
 #!/bin/bash
 
 # run unlock script first (includes setting env vars)
-. /home/edaly/restic_backup/restic_unlock.sh
+. /home/joseph/Documents/Backup/Restic/restic-scripts/restic_env.sh
 
 restic snapshots
