@@ -60,7 +60,7 @@ Now enable it with `sudo systemctl enable cron`
 
 An example is to run a command everyday at 13:00 everyday with a log file going to my-logs
 
-0 13 * * *  /path_to_restic/restic_backup.sh >> my_logs
+```0 13 * * *  /path_to_restic/restic_backup.sh >> my_logs
 - - - - -
 | | | | |
 | | | | +----- Day of week (0-7, Sunday=0 or 7)
@@ -68,6 +68,7 @@ An example is to run a command everyday at 13:00 everyday with a log file going 
 | | +--------- Day of month (1-31)
 | +----------- Hour (0-23)
 +------------- Minute (0-59)
+```
 
 Remember to use full paths!! Not `restic`, but `/usr/local/bin/restic` or whatever you use.
 
@@ -77,7 +78,7 @@ Test the crontab command, it may take some time setting up, but then everything 
 
 ## Examples:
 I use this crontab command:
-00 13 * * * /bin/bash /home/joseph/Documents/Backup/Restic/restic-scripts/restic_backup.sh >> /home/joseph/Documents/Backup/Restic/restic-scripts/logs/backup_log_$(date -I).log
+`00 13 * * * /bin/bash /home/joseph/Documents/Backup/Restic/restic-scripts/restic_backup.sh >> /home/joseph/Documents/Backup/Restic/restic-scripts/logs/backup_log_$(date -I).log`
 
 ## I have a problem!
 - Carefully read this tutorial
