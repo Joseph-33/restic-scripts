@@ -1,7 +1,5 @@
 # Restic Scripts
 
-List of scripts useful to perform automated backups with restic, designed to be used to backup to a REST server.
-
 ## 1. Installing Restic
 
 Download restic from: https://github.com/restic/restic or via `sudo apt update` and `sudo apt install restic`
