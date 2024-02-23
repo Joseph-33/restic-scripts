@@ -17,7 +17,7 @@ Download this repository via git clone:
 ## 3. Changing the file parameters
 
 Note these three lines in the `restic_env.sh` file:
-- RESTIC_REST_USERNAME - This should be your first name capitalised, we have created users for everyone in the group
+- RESTIC_REST_USERNAME - This should be your first name with first letter capitalised, we have created users for everyone in the group
 - RESTIC_REST_PASSWORD - This is your server username password, we will give you this password.
 - RESTIC_CACERT - This is the security certificate, you need it to connect to the server, ask me or Danish and we will give it to you via usb, remove the path and add your own.
 - RESTIC_PASSWORD - Your personal password, 
