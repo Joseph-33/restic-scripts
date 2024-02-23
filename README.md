@@ -75,7 +75,17 @@ Test the crontab command, it may take some time setting up, but then everything 
 
 
 ## Cron vs Crontab vs Anacronda?
-Cron is a system utility used for scheduling recurring tasks on Unix-like operating systems. It relies on the system clock to execute commands or scripts at specific times or intervals. crontab is the command-line interface for managing cron jobs. Users can create, edit, and delete scheduled tasks using crontab, specifying the timing and frequency of execution. On the other hand, anacron is a separate utility designed for running periodic tasks on systems that may not be continuously running, such as laptops or desktop computers. It adjusts task scheduling based on the system's uptime, ensuring that missed tasks are executed when the system is next powered on. Each of these utilities serves a distinct purpose in automating tasks on Unix-like systems, providing flexibility and control over when and how tasks are executed.
+**Cron:**
+- Time-based job scheduler in Unix-like systems.
+- Schedule tasks at fixed times or intervals.
+
+**Crontab:**
+- Configuration file for cron jobs.
+- Use `crontab` command to manage.
+
+**Anacron:**
+- Cron-like utility for periodic tasks.
+- Runs tasks regardless of system uptime.
 
 
 ## Examples:
