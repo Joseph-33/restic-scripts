@@ -9,10 +9,11 @@ Run `restic version` and ensure you are on the correct version (at least 0.16.4)
 
 ## 2. Downloading the scripts
 
-Download this repository via git clone:
+Download this repository via git clone command:
 
-`git clone https://github.com/Joseph-33/restic-scripts/`
+`git clone github.com/Joseph-33/restic-scripts/`
 
+or you can download it as a zip in the top right CODE button.
 
 ## 3. Changing the file parameters
 
