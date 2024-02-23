@@ -76,16 +76,18 @@ Test the crontab command, it may take some time setting up, but then everything 
 
 ## Cron vs Crontab vs Anacronda?
 **Cron:**
-- Time-based job scheduler in Unix-like systems.
-- Schedule tasks at fixed times or intervals.
+- Cron is a time-based job scheduler in Unix-like operating systems.
+- It allows users to schedule tasks (commands or scripts) to run periodically at fixed times, dates, or intervals.
 
 **Crontab:**
-- Configuration file for cron jobs.
-- Use `crontab` command to manage.
+- Crontab (cron table) is a configuration file used by the cron daemon to specify the schedule of cron jobs.
+- Users can create, edit, and delete cron jobs using the crontab command.
+- Each user has their own crontab file, typically located at `/etc/crontab` or `/var/spool/cron/crontabs/username`.
 
 **Anacron:**
-- Cron-like utility for periodic tasks.
-- Runs tasks regardless of system uptime.
+- Anacron is a cron-like utility that runs jobs periodically on a system.
+- Unlike cron, which schedules jobs based on specific times, Anacron is designed to execute tasks at intervals, regardless of the system's uptime or shutdown state.
+- It's useful for executing tasks that should run periodically, such as maintenance scripts, even if the system is not continuously powered on.
 
 
 ## Examples:
