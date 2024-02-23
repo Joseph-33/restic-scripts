@@ -5,7 +5,7 @@
 Download restic from: https://github.com/restic/restic or via `sudo apt update` and `sudo apt install restic`
 By default, ubuntu uses an old version, but an up-to-date version is needed to run the scripts.
 
-Run `restic version` and ensure you are on the correct version (at least 0.16.4), if not try running `restic self-update`
+Run `restic version` and ensure you are on the correct version (at least 0.16.4), if not try running `sudo restic self-update`
 
 ## 2. Downloading the scripts
 
